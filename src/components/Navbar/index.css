@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.lightNav {
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 10vh;
+  color: #000000;
+}
+.darkNav {
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 10vh;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.ul {
+  display: flex;
+  padding: 0%;
+  list-style-type: none;
+  width: 10%;
+  justify-content: space-between;
+}
+h2 {
+  margin: 0px;
+}
+
+.darkH {
+  color: #ffffff;
+}
+.lightH {
+  color: #000000;
+}
+
+.t-btn {
+  border: none;
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+}
